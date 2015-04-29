@@ -1,7 +1,11 @@
 window.onload = function() {
  
     var messages = [];
+    /*
+    Old IO CONNECT
     var socket = io.connect('http://localhost:3700');
+     */
+    var socket = io.connect('http://flodavis.github.io/chat-app/');
     var field = document.getElementById("field");
     var sendButton = document.getElementById("send");
     var content = document.getElementById("content");
